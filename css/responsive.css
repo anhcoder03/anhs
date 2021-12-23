@@ -1,0 +1,151 @@
+@media screen and (min-width:320px) and (max-width: 737px){
+    .container{
+        height: 306px;
+    }
+    .image img{
+        max-width: 80px;
+        margin-top: -600px;
+        margin-right: -60px;
+        /* top: 10px;
+        right: 10px; */
+    }
+    .c{
+        font-size: 22px;
+    }
+    .b{
+        width: 70px;
+    }
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        padding: 50px 10px;
+    }
+    .item-title{
+        display: block;
+    }
+    .item-img img{
+        width: 355px;
+        padding-bottom: 30px;
+    }
+    .thongtin{
+        display: block;
+        padding-left: 0;
+        float: none;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .item-img{
+        margin-left: auto;
+    }
+    .item-title p{
+        width: 100%;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .btn-item{
+        padding-top: 30px;
+      }
+    .btn-item span{
+        font-size: 16px;
+    }
+    .thetong2{
+        grid-template-columns:none;
+    }
+    .chu h2{
+        font-size: 16px;
+    }
+    .container-item-4{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: unset;
+        grid-auto-flow: column;
+        grid-auto-columns: 80%;
+        overflow: auto;
+    }
+    .link-list:hover{
+        transform: none;
+    }
+    .container-item-4 {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    }
+    .container-item-4::-webkit-scrollbar {
+     display: none;
+    }
+    .item-list img{
+        max-width: 100px;
+    }
+    .heading-item-list{
+        font-size: 20px;
+    }
+    .heading-item-list::before{
+        top: 5px;
+    }
+    .item-list p{
+        margin-bottom: 10px;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+    .item-list p,
+    .item-list a{
+        font-size: 14px;
+    }
+    .slide span{
+        padding-top: 10px;
+        font-size: 120px;
+    }
+    .slide-img{
+        width: 150px;
+        height: 150px;
+    }
+    .slide-astronaut{
+        max-width: 70px;
+        padding-top: 30px;
+    }
+    .slide-rocket{
+        max-width: 40px;
+    }
+    .container-item-5 h3{
+        font-size: 25px;
+    }
+
+    .container-item-6{
+        padding-right: 10px;
+        grid-template-columns:repeat(2,80px);
+        grid-auto-rows:80px;
+        grid-auto-flow: row;
+        gap: 45px;
+    }
+}
+/* tab */
+@media screen and (max-width:1024px) and (min-width:768px){
+    .image img{
+        max-width: 150px;
+    }
+    .c{
+        font-size: 50px;
+    }
+    .b{
+        width: 60px;
+    }
+    .chu h2{
+        font-size: 12px;
+    }
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        padding: 50px 20px;
+    }
+    .thetong2{
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(513px,1fr));
+    }
+    .container-item-4 {
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+      }
+}
